@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Profile Assignment - Success!</title>
+    <meta name="description" content="VS Code Profile Assignment completion test page for Web Development I">
+    <meta name="author" content="Web Development I Course">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e5a96 0%, #3498db 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            margin: 2rem;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            color: #1e5a96;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            color: #1e5a96;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .svg-container {
+            margin: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-svg {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+        }
+
+        .success-message {
+            background: #1e8449;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            font-weight: 500;
+        }
+
+        .instructions {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #1e8449;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: #1e5a96;
+            margin-bottom: 1rem;
+        }
+
+        .instructions ol {
+            color: #333;
+            padding-left: 1.5rem;
+        }
+
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-info {
+            background: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .profile-info h3 {
+            color: #1e5a96;
+            margin-bottom: 1rem;
+        }
+
+        .profile-info ul {
+            color: #333;
+            padding-left: 1.5rem;
+        }
+
+        .profile-info li {
+            margin-bottom: 0.5rem;
+        }
+
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #2c3e50;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            color: #2c3e50;
+            font-size: 0.9rem;
+            text-align: left;
+            display: grid;
+            gap: 1em;
+        }
+
+        /* Animation for the container */
+        .container {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>VS Code Profile Assignment</h1>
+        <p class="subtitle">Assignment Completed Successfully!</p>
+
+        <div class="svg-container">
+            <img src="welcome-cats-dots.svg" alt="Welcome animation with cats and dots" class="welcome-svg">
+        </div>
+
+        <div class="success-message">
+            🎉 Excellent! Live Server and your profile are working perfectly!
+        </div>
+
+        <div class="instructions">
+            <h3>What you've accomplished:</h3>
+            <ol>
+                <li>Imported and activated the "Web Dev I" VS Code profile</li>
+                <li>Set up HTMLHint for HTML code quality checking</li>
+                <li>Installed Live Server for local web development</li>
+                <li>Downloaded the <span class="code">welcome-cats-dots.svg</span> image file</li>
+                <li>Successfully tested your development environment</li>
+            </ol>
+        </div>
+
+        <div class="profile-info">
+            <h3>Your VS Code Profile includes:</h3>
+            <ul>
+                <li><strong>HTMLHint</strong> - Catches HTML errors and accessibility issues automatically</li>
+                <li><strong>Live Server</strong> - Local web server with live reload functionality</li>
+                <li><strong>Professional Settings</strong> - Auto-formatting, consistent indentation, and Git
+                    integration</li>
+                <li><strong>Optimized Validation</strong> - Enhanced support for HTML, CSS, and JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>This page demonstrates that your VS Code profile is configured correctly and Live Server is functional.
+            </p>
+            <p><strong>Next:</strong> Commit your changes and push to GitHub to complete the assignment.</p>
+        </div>
+    </div>
+</body>
+
+</html>
